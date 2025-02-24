@@ -17,5 +17,11 @@ class SearchAction {
     async AddToCart(){
         await searchLocators.addToCart.click();
     }
+    async ViewCart(){
+        await searchLocators.viewCart.click();
+    }
+    async ClickViewCart(){
+        await searchLocators.clickViewCart.click();
+    }
 }
 module.exports = new SearchAction();
